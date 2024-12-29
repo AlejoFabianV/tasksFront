@@ -32,13 +32,13 @@ function TaskItem({ task }: Props) {
                             name="title"
                             value={editedTask.title}
                             onChange={handleEditChange}
-                            className="bg-gray-700 p-3 mb-2 flex"
+                            className="bg-gray-700 p-2 mb-2 flex"
                         />
                         <textarea
                             name="description"
                             value={editedTask.description}
                             onChange={handleEditChange}
-                            className="bg-gray-700 p-3 flex"
+                            className="bg-gray-700 p-2 flex"
                         />
                     </div>
                 ) : (
