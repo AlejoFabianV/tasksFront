@@ -1,6 +1,6 @@
 import { CreateTask, UpdateTask } from "../interfaces/task.interface";
 
-const API = 'mongodb+srv://verhagenalejo:Independiente28-@cluster0.pd4yr.mongodb.net/'
+const API = 'https://tasksback-72ow.onrender.com/api/tasks'
 
 export const createTaskRequest = (task: CreateTask) =>
     fetch(`${API}/tasks`, {
