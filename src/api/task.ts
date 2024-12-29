@@ -1,6 +1,6 @@
 import { CreateTask, UpdateTask } from "../interfaces/task.interface";
 
-const API = 'http://localhost:3000/api'
+const API = 'http://localhost:3000/apimongodb+srv://verhagenalejo:Independiente28-@cluster0.pd4yr.mongodb.net/'
 
 export const createTaskRequest = (task: CreateTask) =>
     fetch(`${API}/tasks`, {
