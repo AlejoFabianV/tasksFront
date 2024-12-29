@@ -1,6 +1,6 @@
 import { CreateTask, UpdateTask } from "../interfaces/task.interface";
 
-const API = 'https://tasksback-72ow.onrender.com';
+const API = 'https://tasksback-72ow.onrender.com/api';
 
 export const createTaskRequest = (task: CreateTask) =>
     fetch(`${API}/tasks`, {
