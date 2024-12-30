@@ -25,7 +25,7 @@ Desarrollado en ReactJS, utilizando typescript y estilado con tailwind CSS.
   - getTaskRequest (donde devuelve todas las tareas listadas hasta el momento) -deleteTaskRequest (donde espera un ID para eliminar una tarea permanentemente de la base de datos)
   - updateTaskRequest (donde espera un ID y un JSON para poder actualizar uno o todos los campos de una tarea ya existente)
 
-#Componentes
+# Componentes
 -TaskList.tsx: devuelve un array listando todas las tareas existentes.
 -TaskForm.tsx: encargado del formulario principal para crear una nueva tarea y almacenarla en la base de datos para que se muestre en el listado, también se encarga del filtro de tareas completadas o pendientes. 
 Al enviar una petición para almacenar una nueva tarea el método handleSubmit() se encarga de verificar si el título ya existe y si no se está enviando un título sin contenido, si alguna de las dos condiciones no se cumple se envía un mensaje especificando que es lo que está pasando.
